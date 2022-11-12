@@ -91,9 +91,8 @@ func main() {
 	}
 }
 
-// random int64 between 0 and 20
 func value() int64 {
-	rand.Seed(time.Now().UnixNano())
-	n := rand.Intn(20)
-	return int64(n)
+	min := 100
+	max := 120
+	return int64(rand.Intn(max-min) + min)
 }
