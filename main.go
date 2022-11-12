@@ -19,7 +19,7 @@ const (
 
 	port        = 8125
 	flushInt    = time.Second * 5
-	resInterval = time.Minute * 2
+	resInterval = time.Minute * 1
 )
 
 func main() {
